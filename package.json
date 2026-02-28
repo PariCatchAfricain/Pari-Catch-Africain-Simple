@@ -1,8 +1,15 @@
-export default function Home() {
-  return (
-    <main style={{ padding: '50px', textAlign: 'center', fontFamily: 'sans-serif' }}>
-      <h1 style={{ color: '#FF4500' }}>Bienvenue sur Pari Catch Africain</h1>
-      <p>La culture et le sport africain à l'honneur.</p>
-    </main>
-  );
+{
+  "name": "pari-catch-africain",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
 }
